@@ -2,7 +2,7 @@
 // Author: Hayden Lueck
 // Course: CS 427
 // Date: 2018/11/13
-// Assignment #1
+// Assignment #3
 // Description: This program is made to run in a Node.js environment.
 //              The program's input takes a .dat file containing PCM
 //              samples from an audio file, converted in SoX (Sound Exchange).
