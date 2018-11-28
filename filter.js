@@ -67,7 +67,7 @@ function convertToWav() {
 
 // Check if file name was provided, exit if not
 if (!fileName) {
-    console.error("Error reading input file");
+    console.error('Error reading input file');
     process.exit();
 }
 // Clear the contents of the output .dat file (if exists)
