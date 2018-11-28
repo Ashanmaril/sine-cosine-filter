@@ -58,7 +58,10 @@ function sineCosineFilter(params) {
 // Params: None
 // Return: void
 function convertToWav() {
-    exec(`sox ${outputDataFile} ${outputAudioFile}`, () => console.log(`Output to ${outputAudioFile}`));
+    exec(
+        `sox ${outputDataFile} ${outputAudioFile}`,
+        () => console.log(`Output to ${outputAudioFile}`)
+    );
 }
 
 //-----------------------------------------------------------------------------
